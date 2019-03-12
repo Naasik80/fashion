@@ -1,3 +1,38 @@
+* {
+  margin: 0% auto; }
 
+#top-bar {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  background-color: #2d2827;
+  text-transform: uppercase;
+  color: #999999;
+  display: grid;
+  padding: 2em;
+  grid-template-columns: 1fr 2fr 1fr; }
+
+li {
+  list-style-type: none;
+  display: inline-block; }
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  font-family: 'Dosis', sans-serif; }
+
+#fonts {
+  font-weight: 300;
+  text-align: center; }
+
+#caption {
+  letter-spacing: 2.4px; }
+
+#social-media {
+  font-size: 15px;
+  text-align: center; }
+
+#navbar {
+  letter-spacing: 0.8px;
+  font-size: 18px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+// all styles //
+* {
+    margin: 0% auto;
+}
+// all styles //
+
+// top-bar styles starts //
+#top-bar {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    background-color: #2d2827;
+    text-transform: uppercase;
+    color: #999999;
+    display: grid;
+    padding: 2em;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+li {
+    list-style-type: none; 
+    display: inline-block;
+}
+// top-bar styles ends //
+
+
+// nav styles starts //
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-family: 'Dosis', sans-serif;
+}
+// nav styles ends //
