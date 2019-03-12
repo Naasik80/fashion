@@ -22,10 +22,54 @@ li {
 // top-bar styles ends //
 
 
+header {
+    background-color: rgb(61, 61, 61);
+    height: 91vh;
+}
+
 // nav styles starts //
 nav {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    padding-top: 3em;
+    ul {
+        padding-left: 0%;
+        text-align: center;
+    }
+    li {
+        padding: 0em 1em;
+    }
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        letter-spacing: 0.8px;
+        font-size: 15px;
+    }
+}
+#center-name {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+    color: #fffefe;
 }
 // nav styles ends //
+
+
+// hero section styles starts //
+main {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10em;
+    a {
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+// hero section styles ends //
