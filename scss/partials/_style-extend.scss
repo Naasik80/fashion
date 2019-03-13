@@ -1,45 +1,27 @@
-// top-bar styles starts //
-#fonts {
-    font-weight: 300;
-    text-align: center;  
-}
-#caption {
-    letter-spacing: 2.4px;
-}
-#social-media {
-    // font-family: FontAwesome;
-    font-size: 15px;
-    text-align: center;
-}
-// top-bar styles ends //
-
-
-// nav styles starts //
-
-#navbar {
-    letter-spacing: 0.8px;
-    font-size: 18px;
-}
-// nav styles ends //
-
-
-// hero section styles //
-#main-title {
-    font-family: 'Dosis', sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    padding-bottom: 0.5em;
-}
-#sub-title {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    width: 924px;
-    padding-bottom: 8em;
-}
-#button {
-    width: 150px;
-    border-radius: 20px;
-    padding: 0.4em 0em;
+// basic styles //
+#underline {
+    margin-top: 0.5em;
+    width: 70px;
+    height: 2px;
     background-color: #a88d7b;
 }
-// hero section styles //
+// basic styles ends //
+
+// header styles starts //
+
+// header styles ends //
+
+// hero styles starts //
+#hero-bg {
+    height: 945px;
+    background-color: #666666;
+
+    #center-name {
+        font-family: 'Dosis', sans-serif;
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        color: #fffefe;
+    }
+}
+// hero styles ends //

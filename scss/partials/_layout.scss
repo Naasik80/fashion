@@ -1,0 +1,40 @@
+// header grid layout //
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "lang cap socials";
+    
+    ul {
+        grid-area: lang;
+    }
+    #caption {
+        grid-area: cap;
+    }
+    #social-media {
+        grid-area: socials;
+    }
+}
+
+// header grid layout //
+
+
+//navbar grid layout //
+nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "search nav-links cart";
+    
+    #search-bar {
+        grid-area: search;
+    }
+    #navbar {
+        grid-area: nav-links;
+    }
+    #cart {
+        grid-area: cart;
+    }
+}
+
+//navbar grid layout //

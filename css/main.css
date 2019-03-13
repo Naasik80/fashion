@@ -1,91 +1,73 @@
 * {
   margin: 0% auto; }
 
-#top-bar {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12px;
-  background-color: #2d2827;
-  text-transform: uppercase;
-  color: #999999;
-  display: grid;
-  padding: 2em;
-  grid-template-columns: 1fr 2fr 1fr; }
-
 li {
   list-style-type: none;
   display: inline-block; }
 
 header {
-  background-color: #3d3d3d;
-  height: 91vh; }
+  padding: 19px 0;
+  background-color: #2d2827;
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase; }
+  header ul {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center; }
+  header #caption {
+    font-size: 12px;
+    letter-spacing: 2.4px; }
+  header #socials {
+    font-size: 15px;
+    text-align: center; }
+
+nav li {
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  padding: 0 1em;
+  text-transform: uppercase; }
+nav a {
+  color: #ffffff;
+  text-decoration: none; }
+
+#underline {
+  margin-top: 0.5em;
+  width: 70px;
+  height: 2px;
+  background-color: #a88d7b; }
+
+#hero-bg {
+  height: 945px;
+  background-color: #666666; }
+  #hero-bg #center-name {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: #fffefe; }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "lang cap socials"; }
+  header ul {
+    grid-area: lang; }
+  header #caption {
+    grid-area: cap; }
+  header #social-media {
+    grid-area: socials; }
 
 nav {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  font-family: 'Dosis', sans-serif;
-  text-transform: uppercase;
-  padding-top: 3em; }
-  nav ul {
-    padding-left: 0%;
-    text-align: center; }
-  nav li {
-    padding: 0em 1em; }
-  nav a {
-    text-decoration: none;
-    color: #ffffff;
-    letter-spacing: 0.8px;
-    font-size: 15px; }
-
-#center-name {
-  font-size: 30px;
-  font-weight: 600;
-  letter-spacing: 0.4em;
-  color: #fffefe; }
-
-main {
-  text-align: center;
-  color: #ffffff;
-  padding-top: 10em; }
-  main a {
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: center; }
-
-#fonts {
-  font-weight: 300;
-  text-align: center; }
-
-#caption {
-  letter-spacing: 2.4px; }
-
-#social-media {
-  font-size: 15px;
-  text-align: center; }
-
-#navbar {
-  letter-spacing: 0.8px;
-  font-size: 18px; }
-
-#main-title {
-  font-family: 'Dosis', sans-serif;
-  font-size: 50px;
-  text-transform: uppercase;
-  padding-bottom: 0.5em; }
-
-#sub-title {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  width: 924px;
-  padding-bottom: 8em; }
-
-#button {
-  width: 150px;
-  border-radius: 20px;
-  padding: 0.4em 0em;
-  background-color: #a88d7b; }
+  grid-template-areas: "search nav-links cart"; }
+  nav #search-bar {
+    grid-area: search; }
+  nav #navbar {
+    grid-area: nav-links; }
+  nav #cart {
+    grid-area: cart; }
 
 /*# sourceMappingURL=main.css.map */

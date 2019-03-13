@@ -1,75 +1,67 @@
-// all styles //
+// page styles starts //
 * {
     margin: 0% auto;
 }
-// all styles //
+// page styles ends //
 
-// top-bar styles starts //
-#top-bar {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
-    background-color: #2d2827;
-    text-transform: uppercase;
-    color: #999999;
-    display: grid;
-    padding: 2em;
-    grid-template-columns: 1fr 2fr 1fr;
-}
+
+// heading tags styles starts //
+
+// heading tags styles ends //
+
+
+// list styles starts //
 li {
     list-style-type: none; 
     display: inline-block;
 }
-// top-bar styles ends //
+// list styles ends //
 
 
+
+// header styles starts //
 header {
-    background-color: rgb(61, 61, 61);
-    height: 91vh;
-}
-
-// nav styles starts //
-nav {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    font-family: 'Dosis', sans-serif;
+    padding: 19px 0;
+    background-color: #2d2827;
+    color: #999999;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
-    padding-top: 3em;
+    
     ul {
-        padding-left: 0%;
+        font-size: 12px;
+        font-weight: 300;
         text-align: center;
     }
+    #caption {
+        font-size: 12px;
+        letter-spacing: 2.4px;
+    }
+    #socials {
+        // font-family: FontAwesome;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+// header styles ends //
+
+
+// main section styles starts //
+
+// nav bar styles starts //
+nav {
+
     li {
-        padding: 0em 1em;
-    }
-    a {
-        text-decoration: none;
-        color: #ffffff;
+        font-family: 'Dosis', sans-serif;
+        font-size: 15px;
         letter-spacing: 0.8px;
-        font-size: 15px;
+        padding: 0 1em;
+        text-transform: uppercase; 
     }
-}
-#center-name {
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 0.4em;
-    color: #fffefe;
-}
-// nav styles ends //
-
-
-// hero section styles starts //
-main {
-    text-align: center;
-    color: #ffffff;
-    padding-top: 10em;
     a {
-        text-decoration: none;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 15px;
-        text-align: center;
         color: #ffffff;
-        text-transform: uppercase;
-        text-align: center;
+        text-decoration: none;
     }
 }
-// hero section styles ends //
+// nav bar styles ends //
+
+// main section styles ends //
