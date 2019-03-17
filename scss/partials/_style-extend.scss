@@ -1,9 +1,9 @@
 // basic styles //
 #underline {
-    margin-top: 0.5em;
-    width: 70px;
+    width: 50px;
     height: 2px;
     background-color: #a88d7b;
+    margin-bottom: 4em;
 }
 // basic styles ends //
 
@@ -43,3 +43,17 @@
     }
 }
 // hero styles ends //
+
+
+// featured section starts //
+
+#featured-section {
+    background-color: $offset-white;
+    height: 704px;
+
+    .section-titles {
+        @include section-title;
+    }
+}
+
+// featured section ends //

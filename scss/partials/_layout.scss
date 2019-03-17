@@ -55,3 +55,25 @@ nav {
 }
 
 //navbar grid layout //
+
+// featured section grid layout //
+#product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2em;
+    grid-template-areas: 
+    ". first second third .";
+}
+#product1 {
+    grid-area: first;
+    @include product-img-styles;
+}
+#product2 {
+    grid-area: second;
+    @include product-img-styles;   
+}
+#product3 {
+    grid-area: third;
+    @include product-img-styles;  
+}
+// featured section grid layout //

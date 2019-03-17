@@ -1,0 +1,17 @@
+// section titles stlyes //
+@mixin section-title {
+    padding-top: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    line-height: 1.33;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+}
+// section titles stlyes //
+
+@mixin product-img-styles {
+    width: 370px;
+    height: 360px;
+    background-color: #666666;
+}
