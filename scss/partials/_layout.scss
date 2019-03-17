@@ -31,6 +31,23 @@ nav {
     }
     #navbar {
         grid-area: nav-links;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "left-link logo-home right-link";
+
+        #links-left {
+            grid-area: left-link;
+            align-self: center;
+        }
+        #logo-home {
+            grid-area: logo-home;
+            align-self: center;  
+        }
+        #links-right {
+            grid-area:  right-link;
+            align-self: center;
+        }
     }
     #cart {
         grid-area: cart;

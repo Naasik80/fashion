@@ -6,7 +6,15 @@
 
 
 // heading tags styles starts //
-
+h1 {
+    padding-top: 2em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    line-height: 0.96;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
 // heading tags styles ends //
 
 
@@ -49,15 +57,23 @@ header {
 
 // nav bar styles starts //
 nav {
-
-    li {
+    padding-top: 2em;
+    
+    .nav-styles {
         font-family: 'Dosis', sans-serif;
         font-size: 15px;
         letter-spacing: 0.8px;
-        padding: 0 1em;
         text-transform: uppercase; 
+        color: #ffffff;
+        text-decoration: none;
+        
+        text-align: center;
+    }
+    #logo-size {
+        height: 3em;
     }
     a {
+        padding: 0 1em;
         color: #ffffff;
         text-decoration: none;
     }

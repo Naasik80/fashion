@@ -1,6 +1,15 @@
 * {
   margin: 0% auto; }
 
+h1 {
+  padding-top: 2em;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  line-height: 0.96;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; }
+
 li {
   list-style-type: none;
   display: inline-block; }
@@ -22,15 +31,22 @@ header {
     font-size: 15px;
     text-align: center; }
 
-nav li {
-  font-family: 'Dosis', sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.8px;
-  padding: 0 1em;
-  text-transform: uppercase; }
-nav a {
-  color: #ffffff;
-  text-decoration: none; }
+nav {
+  padding-top: 2em; }
+  nav .nav-styles {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center; }
+  nav #logo-size {
+    height: 3em; }
+  nav a {
+    padding: 0 1em;
+    color: #ffffff;
+    text-decoration: none; }
 
 #underline {
   margin-top: 0.5em;
@@ -39,14 +55,33 @@ nav a {
   background-color: #a88d7b; }
 
 #hero-bg {
-  height: 945px;
+  height: 92vh;
   background-color: #666666; }
-  #hero-bg #center-name {
-    font-family: 'Dosis', sans-serif;
-    font-size: 30px;
+
+#sub-title {
+  padding-top: 2em;
+  width: 924px;
+  height: 39px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  line-height: 1.67;
+  text-align: center;
+  color: #e6e6e6; }
+
+#button {
+  text-decoration: none; }
+  #button p {
+    color: #ffffff;
+    font-size: 15px;
     letter-spacing: 1.5px;
-    font-weight: 600;
-    color: #fffefe; }
+    text-transform: uppercase;
+    margin-top: 6em;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 20px;
+    background-color: #a88d7b;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; }
 
 header {
   display: grid;
@@ -66,7 +101,19 @@ nav {
   nav #search-bar {
     grid-area: search; }
   nav #navbar {
-    grid-area: nav-links; }
+    grid-area: nav-links;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-link logo-home right-link"; }
+    nav #navbar #links-left {
+      grid-area: left-link;
+      align-self: center; }
+    nav #navbar #logo-home {
+      grid-area: logo-home;
+      align-self: center; }
+    nav #navbar #links-right {
+      grid-area: right-link;
+      align-self: center; }
   nav #cart {
     grid-area: cart; }
 
