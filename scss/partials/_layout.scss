@@ -60,9 +60,12 @@ nav {
 #product-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
     grid-gap: 2em;
     grid-template-areas: 
-    ". first second third .";
+    ". first second third ."
+    ". pro1 pro2 pro3 ."
+    ". price1 price2 price3 .";
 }
 #product1 {
     grid-area: first;
@@ -76,4 +79,40 @@ nav {
     grid-area: third;
     @include product-img-styles;  
 }
+#pro-name-1 {
+    grid-area:pro1;
+}
+#pro-name-2 {
+    grid-area: pro2;
+}
+#pro-name-3 {
+    grid-area: pro3;
+}
+#price-1 {
+    grid-area: price1;
+    @include price;
+}
+#price-2 {
+    grid-area: price2;
+    @include price;
+}
+#price-3 {
+    grid-area: price3;
+    @include price;
+}
+
 // featured section grid layout //
+
+
+// collection grid layout //
+#collection-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 2em;
+    grid-template-areas: 
+    ". second third ."
+    ". pro2 pro3 .";
+    
+}
+// collection grid layout //

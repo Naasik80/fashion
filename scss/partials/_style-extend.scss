@@ -50,10 +50,18 @@
 #featured-section {
     background-color: $offset-white;
     height: 704px;
-
-    .section-titles {
-        @include section-title;
-    }
+}
+.section-titles {
+    @include section-title;
 }
 
 // featured section ends //
+
+
+// collection section starts //
+
+#collection-section {
+    height: 705px;
+    background-color: $white-five;
+}
+// collection section ends //

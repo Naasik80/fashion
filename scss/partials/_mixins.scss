@@ -15,3 +15,11 @@
     height: 360px;
     background-color: #666666;
 }
+@mixin price {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 3.2;
+    text-align: center;
+    color: $warm-grey;
+}
