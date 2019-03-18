@@ -154,23 +154,28 @@ nav {
 
 // footer section grid layout //
 #footer-grid {
+    padding: 0 5em;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
     grid-template-rows: repeat(2, auto);
     grid-template-areas: 
     "cont link shop inst";
 
 
     #footer-contact {
+      
         grid-area: cont;
     }
     #footer-link {
+        
         grid-area: link;
     }
     #footer-shop {
+        
         grid-area: shop;
     }
     #footer-instagram {
+        
         grid-area: inst;
     }
     #nested-grids-imgs {

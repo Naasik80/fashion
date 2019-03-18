@@ -210,7 +210,8 @@ footer {
   background-color: #ffffff; }
 
 #logo-second-size {
-  height: 3em; }
+  height: 3em;
+  padding: 1.5em 0; }
 
 #creator-section p {
   font-family: 'Source Sans Pro', sans-serif;
@@ -363,8 +364,9 @@ nav {
     margin: 0; }
 
 #footer-grid {
+  padding: 0 5em;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
   grid-template-rows: repeat(2, auto);
   grid-template-areas: "cont link shop inst"; }
   #footer-grid #footer-contact {
