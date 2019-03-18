@@ -137,15 +137,74 @@ nav {
 
 #blog-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
-    ". blog-img blog-content .";
+    "blog-img blog-content";
 
     #blog-img {
         grid-area: blog-img;
     }
     #blog-content-wrapper {
         grid-area: blog-content;
+        width: 529px;
+        margin: 0;
     }
 }
+// blog section grid layout //
+
+// footer section grid layout //
+#footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "cont link shop inst";
+
+
+    #footer-contact {
+        grid-area: cont;
+    }
+    #footer-link {
+        grid-area: link;
+    }
+    #footer-shop {
+        grid-area: shop;
+    }
+    #footer-instagram {
+        grid-area: inst;
+    }
+    #nested-grids-imgs {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+        "img1 img2 img3 img4"
+        "img5 img6 img7 img8";
+
+        #img1 {
+            grid-area: img1;
+        }
+        #img2 {
+            grid-area: img2;
+        }
+        #img3 {
+            grid-area: img3;
+        }
+        #img4 {
+            grid-area: img4;
+        }
+        #img5 {
+            grid-area: img5;
+        }
+        #img6 {
+            grid-area: img6;
+        }
+        #img7 {
+            grid-area: img7;
+        }
+        #img8 {
+            grid-area: img8;
+        }
+    }
+}
+// footer section grid layout //

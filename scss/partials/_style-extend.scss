@@ -7,10 +7,6 @@
 }
 // basic styles ends //
 
-// header styles starts //
-
-// header styles ends //
-
 // hero styles starts //
 #hero-bg {
     height: 92vh;
@@ -129,3 +125,32 @@
 
 
 // blog section stlyes ends //
+
+// footer section styles starts //
+.insta-img-size {
+    width: 80px;
+    height: 80px;
+    background-color: $white-five;
+}
+// footer section styles ends //
+
+// creator section styles starts //
+
+
+#logo-second-size {
+    height: 3em;
+}
+
+#creator-section {
+
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: center;
+        color: $brownish-grey;
+        padding: 35.5px 0;
+        background-color: $white-two;
+    }
+}
+// creator section styles ends //
