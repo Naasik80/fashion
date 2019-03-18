@@ -132,3 +132,20 @@ nav {
     }
 }
 // collection grid layout //
+
+// blog section grid layout //
+
+#blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    grid-template-areas: 
+    ". blog-img blog-content .";
+
+    #blog-img {
+        grid-area: blog-img;
+    }
+    #blog-content-wrapper {
+        grid-area: blog-content;
+    }
+}

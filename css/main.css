@@ -11,6 +11,16 @@ h4 {
   text-align: center;
   color: #333333; }
 
+h5 {
+  width: 339px;
+  height: 23px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.92;
+  text-align: left;
+  color: #333333; }
+
 li {
   list-style-type: none;
   display: inline-block; }
@@ -116,8 +126,8 @@ nav {
 
 #second-hero-content-wrapper {
   width: 656px;
-  padding-right: 27 em;
-  padding-top: 8em; }
+  padding-right: 27em;
+  padding-top: 6em; }
 
 #main-title-2 {
   padding-top: 2em;
@@ -151,6 +161,31 @@ nav {
     background-color: #a88d7b;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center; }
+
+#blog-section {
+  height: 671px; }
+  #blog-section #blog-img {
+    width: 585px;
+    height: 405px;
+    background-color: grey; }
+  #blog-section #blog-content-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left; }
+    #blog-section #blog-content-wrapper #blog-content-subtitle {
+      line-height: 3.2;
+      color: #999999; }
+    #blog-section #blog-content-wrapper #blog-content {
+      line-height: 1.67;
+      color: #666666; }
+    #blog-section #blog-content-wrapper a {
+      text-decoration: none;
+      width: 85px;
+      height: 10px;
+      line-height: 3.2;
+      letter-spacing: 1.5px;
+      color: #a88d7b;
+      text-transform: uppercase; }
 
 header {
   display: grid;
@@ -281,5 +316,15 @@ nav {
     text-align: center;
     color: #a88d7b;
     text-transform: uppercase; }
+
+#blog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2em;
+  grid-template-areas: ". blog-img blog-content ."; }
+  #blog-grid #blog-img {
+    grid-area: blog-img; }
+  #blog-grid #blog-content-wrapper {
+    grid-area: blog-content; }
 
 /*# sourceMappingURL=main.css.map */
