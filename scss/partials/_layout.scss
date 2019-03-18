@@ -111,8 +111,24 @@ nav {
     grid-template-rows: repeat(2, auto);
     grid-gap: 2em;
     grid-template-areas: 
-    ". second third ."
-    ". pro2 pro3 .";
-    
+    ". men female ."
+    ". men-n female-n .";
+
+    #men {
+        grid-area: men;
+        @include collection-img;
+    }
+    #female {
+        grid-area: female;
+        @include collection-img;
+    }
+    #first-cat {
+        grid-area: men-n;
+        @include collection-name;
+    }
+    #second-cat {
+        grid-area: female-n;
+        @include collection-name;
+    }
 }
 // collection grid layout //

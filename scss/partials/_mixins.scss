@@ -1,3 +1,32 @@
+// shared hero styles //
+@mixin title {
+    padding-top: 2em;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white-five;
+}
+@mixin sub-title {
+    padding-top: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+@mixin button {
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 6em;
+    width: 150px;
+    padding: 10px 0;
+    background-color: #a88d7b;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+// shared hero styles //
+
+
 // section titles stlyes //
 @mixin section-title {
     padding-top: 1.5em;
@@ -22,4 +51,22 @@
     line-height: 3.2;
     text-align: center;
     color: $warm-grey;
+}
+
+
+
+
+@mixin collection-img {
+    background-color: #666666;
+    width: 570px;
+    height: 373px;
+}
+@mixin collection-name {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    line-height: 1.92;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #a88d7b;
+    text-transform: uppercase;
 }

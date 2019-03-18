@@ -16,30 +16,23 @@
     height: 92vh;
     background-color: #666666;
 }
+#main-title {
+    @include title;
+    font-size: 50px;
+    line-height: 0.96;
+}
 #sub-title {
-    padding-top: 2em;
+    @include sub-title;
     width: 924px;
     height: 39px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
     line-height: 1.67;
-    text-align: center;
     color: #e6e6e6;
 }
 #button {
         text-decoration: none;
     p {
-        color: #ffffff;
-        font-size: 15px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        margin-top: 6em;
-        width: 150px;
-        padding: 10px 0;
+       @include button;
         border-radius: 20px;
-        background-color: #a88d7b;
-        font-family: 'Source Sans Pro', sans-serif;
-        text-align: center;
     }
 }
 // hero styles ends //
@@ -65,3 +58,35 @@
     background-color: $white-five;
 }
 // collection section ends //
+
+// second hero section styles starts //
+
+#second-hero-bg {
+    // create a linear gradient of rgba(0, 0, 0, 0.6) ontop of image //
+    background-color: rgb(0, 0, 0);
+    height: 552px;
+}
+#second-hero-content-wrapper {
+    width: 656px;
+    padding-right: 27 em;
+    padding-top: 8em;
+}
+#main-title-2 {
+    @include title;
+    font-size: 48px;
+    line-height: 0.5;
+}
+#sub-title-2 {
+    @include sub-title;
+    width: 656px;
+    height: 38px;
+    line-height: 1.6;
+    color: #e6e6e6;
+}
+#button-2 {
+    text-decoration: none;
+    p {
+        @include button;
+    }
+}
+// second hero section styles ends //
