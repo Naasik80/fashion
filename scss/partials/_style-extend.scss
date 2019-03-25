@@ -1,11 +1,25 @@
 // basic styles //
+
 #underline {
     width: 50px;
     height: 2px;
     background-color: #a88d7b;
     margin-bottom: 4em;
 }
+#alt-header {
+    background-color: $white-three;
+}
+
 // basic styles ends //
+
+
+// home page nav styles starts//
+     
+#home-nav {
+    padding-top: 2em;
+}
+
+// home page nave styles ends //
 
 // hero styles starts //
 #hero-bg {
@@ -155,3 +169,55 @@
     }
 }
 // creator section styles ends //
+
+
+
+//----------------------------------------------shop----------------------------------//
+
+// shop section
+.nav-grid-alt {
+    height: 93px;
+}
+
+// header section styles //
+
+.alt-hero {
+    height: 445px;
+    background-color: #666666;
+    
+    .alt-main-heading {
+        padding-top: 3em;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 50px;
+        line-height: 1.2;
+        letter-spacing: 5px;
+        text-align: center;
+        color: $white-five;
+        text-transform: uppercase;
+    }
+    .alt-sub-heading {
+        padding-top: 1em;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.4;
+        text-align: center;
+        
+        a {
+            text-decoration: none;
+        }
+        .alt-sub-first-link {
+            color: $white-five;
+        }
+        .alt-sub-link-divider {
+            color: $greyish;
+        }
+        .alt-sub-second-link {
+            color: $pinkish-grey;
+        }
+    }
+}
+
+// header section styles //
+
+//----------------------------------------------shop----------------------------------//

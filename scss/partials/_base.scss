@@ -67,16 +67,14 @@ header {
 
 // nav bar styles starts //
 nav {
-    padding-top: 2em;
-    
+
     .nav-styles {
         font-family: 'Dosis', sans-serif;
         font-size: 15px;
         letter-spacing: 0.8px;
-        text-transform: uppercase; 
+        text-transform: uppercase;
         color: #ffffff;
         text-decoration: none;
-        
         text-align: center;
     }
     #logo-size {
@@ -88,32 +86,38 @@ nav {
         text-decoration: none;
     }
 }
+.nav-styles-alt {
+    
+    a {
+        color: $brownish-grey !important;
+    }
+}
 // nav bar styles ends //
 
 // main section styles ends //
 
 
 // footer section styles starts //
-    footer {
-        height: 340px;
-        background-color: $black;
-        font-family: 'Source Sans Pro', sans-serif;
+footer {
+    height: 340px;
+    background-color: $black;
+    font-family: 'Source Sans Pro', sans-serif;
 
-        p {
-            font-size: 18px;
-            font-weight: bold;
-            line-height: 1.33;
-            text-transform: uppercase;
-            color: $white-four;
-            padding: 2em 0;
-        }
-        li {
-            padding: 0.5em 0;
-            color: $warm-grey;
-            font-size: 15px;
-            line-height: 1.6;
-            list-style-type: none;
-            display: block;
-        }
+    p {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.33;
+        text-transform: uppercase;
+        color: $white-four;
+        padding: 2em 0;
     }
+    li {
+        padding: 0.5em 0;
+        color: $warm-grey;
+        font-size: 15px;
+        line-height: 1.6;
+        list-style-type: none;
+        display: block;
+    }
+}
 // footer section styles ends //

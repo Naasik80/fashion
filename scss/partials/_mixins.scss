@@ -1,4 +1,5 @@
 // shared hero styles //
+
 @mixin title {
     padding-top: 2em;
     font-family: 'Dosis', sans-serif;
@@ -28,6 +29,7 @@
 
 
 // section titles stlyes //
+
 @mixin section-title {
     padding-top: 1.5em;
     font-family: 'Source Sans Pro', sans-serif;
@@ -40,6 +42,7 @@
 // section titles stlyes //
 
 // featured products mixins //
+
 @mixin product-img-styles {
     width: 370px;
     height: 360px;

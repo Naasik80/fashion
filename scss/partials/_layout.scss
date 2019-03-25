@@ -32,7 +32,8 @@ nav {
     #navbar {
         grid-area: nav-links;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0%;
+        grid-template-columns: 1fr 0fr 1fr;
         grid-template-areas: 
         "left-link logo-home right-link";
 
@@ -57,7 +58,9 @@ nav {
 //navbar grid layout //
 
 // featured section grid layout //
+
 #product-grid {
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -178,10 +181,12 @@ nav {
         
         grid-area: inst;
     }
-    #nested-grids-imgs {
+    #nested-grid-imgs {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, auto);
+        grid-column-gap: 0.8em;
+        grid-row-gap: 0.4em;
         grid-template-areas: 
         "img1 img2 img3 img4"
         "img5 img6 img7 img8";
@@ -213,3 +218,29 @@ nav {
     }
 }
 // footer section grid layout //
+
+
+//----------------------------------------------shop----------------------------------//
+
+// alt nav grid layout //
+
+.nav-grid-alt {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+    grid-template-areas: 
+    "alt-logo alt-nav alt-nav";
+
+    .logo-alt {
+        grid-area: alt-logo;
+        align-self: center;
+    }
+    .nav-styles-alt {
+        grid-area: alt-nav;
+        align-self: center;
+    }
+}
+
+// alt nav grid layout //
+
+//----------------------------------------------shop----------------------------------//
