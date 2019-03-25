@@ -172,7 +172,7 @@
 
 
 
-//----------------------------------------------shop----------------------------------//
+//---------------------------------------------- alternative ----------------------------------//
 
 // shop section
 .nav-grid-alt {
@@ -220,4 +220,51 @@
 
 // header section styles //
 
-//----------------------------------------------shop----------------------------------//
+//---------------------------------------------- alternative ----------------------------------//
+
+//---------------------------------------------- about page STARTS ----------------------------------//
+
+// who we are section styles starts //
+#who-we-are-section {
+    height: 548px;
+    background-color: $white-five;
+    
+    #who-styles {
+        padding: 0;
+    }
+    #who-we-are-content {
+        width: 524px;
+        @include paragraph-content;
+    }
+    #who-we-are-img {
+        width: 600px;
+        height: 490px;
+        background-color: $brownish-grey;
+    }
+}
+// who we are section styles ends //
+
+
+// team section styles starts //
+
+    #team-section {
+        padding-top: 3em;
+        height: 721px;
+        background-color: $white-five;
+    }
+    #team-grid {
+        max-width: 1180px;
+        
+        p {
+            @include sub-text-style;
+            padding: 1em 0;
+        }
+        .team-imgs {
+            width: 270px;
+            height: 305px;
+            background-color: $brownish-grey;
+        }
+    }
+// team section styles ends //
+
+//---------------------------------------------- ABOUT PAGE ENDS ----------------------------------//

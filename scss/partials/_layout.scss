@@ -93,15 +93,15 @@ nav {
 }
 #price-1 {
     grid-area: price1;
-    @include price;
+    @include sub-text-style;
 }
 #price-2 {
     grid-area: price2;
-    @include price;
+    @include sub-text-style;
 }
 #price-3 {
     grid-area: price3;
-    @include price;
+    @include sub-text-style;
 }
 
 // featured section grid layout //
@@ -220,7 +220,7 @@ nav {
 // footer section grid layout //
 
 
-//----------------------------------------------shop----------------------------------//
+//---------------------------------------------- Alternative ----------------------------------//
 
 // alt nav grid layout //
 
@@ -243,4 +243,101 @@ nav {
 
 // alt nav grid layout //
 
-//----------------------------------------------shop----------------------------------//
+//---------------------------------------------- Alternative ----------------------------------//
+
+
+//---------------------------------------------- ABOUT SECTION LAYOUTS ----------------------------------//
+
+// Who We Are grid layout //
+
+#who-we-are-grid {
+    padding-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2em;
+    grid-template-areas: 
+    ". who-content who-img .";
+
+    #who-we-are-content {
+        grid-area: who-content;
+    }
+    #who-we-are-img {
+        grid-area: who-img;
+    }
+}
+
+// Who We Are grid layout //
+
+// team grid layout //
+#team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "img-nate img-kieth img-tende img-henry"
+    "name-nate name-kieth name-tende name-henry"
+    "pos-nate pos-kieth pos-tende pos-henry"
+    "social-icon social-icon social-icon social-icon";
+
+    #nate {
+        
+        img {
+            grid-area: img-nate;
+        }
+        h4 {
+            grid-area: name-nate;
+        }
+        p {
+            grid-area: pos-nate;
+        }
+        i {
+            grid: social-icon;
+        }
+    }
+    #kieth {
+
+        img {
+            grid-area: img-kieth;
+        }
+        h4 {
+            grid-area: name-kieth;
+        }
+        p {
+            grid-area: pos-kieth;
+        }
+        i {
+            grid: social-icon;
+        }
+    }
+    #tendekai {
+
+        img {
+            grid-area: img-tende;
+        }
+        h4 {
+            grid-area: name-tende;
+        }
+        p {
+            grid-area: pos-tende;
+        }
+        i {
+            grid: social-icon;
+        }
+    }
+    #henry {
+
+        img {
+            grid-area: img-henry;
+        }
+        h4 {
+            grid-area: name-henry;
+        }
+        p {
+            grid-area: pos-henry;
+        }
+        i {
+            grid: social-icon;
+        }
+    }
+}
+// team grid layout //

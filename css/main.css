@@ -260,6 +260,43 @@ footer {
     .alt-hero .alt-sub-heading .alt-sub-second-link {
       color: #cccccc; }
 
+#who-we-are-section {
+  height: 548px;
+  background-color: #ffffff; }
+  #who-we-are-section #who-styles {
+    padding: 0; }
+  #who-we-are-section #who-we-are-content {
+    width: 524px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.67;
+    color: #666666; }
+  #who-we-are-section #who-we-are-img {
+    width: 600px;
+    height: 490px;
+    background-color: #666666; }
+
+#team-section {
+  padding-top: 3em;
+  height: 721px;
+  background-color: #ffffff; }
+
+#team-grid {
+  max-width: 1180px; }
+  #team-grid p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 3.2;
+    text-align: center;
+    color: #999999;
+    padding: 1em 0; }
+  #team-grid .team-imgs {
+    width: 270px;
+    height: 305px;
+    background-color: #666666; }
+
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -450,5 +487,54 @@ nav {
   .nav-grid-alt .nav-styles-alt {
     grid-area: alt-nav;
     align-self: center; }
+
+#who-we-are-grid {
+  padding-top: 5em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2em;
+  grid-template-areas: ". who-content who-img ."; }
+  #who-we-are-grid #who-we-are-content {
+    grid-area: who-content; }
+  #who-we-are-grid #who-we-are-img {
+    grid-area: who-img; }
+
+#team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "img-nate img-kieth img-tende img-henry" "name-nate name-kieth name-tende name-henry" "pos-nate pos-kieth pos-tende pos-henry" "social-icon social-icon social-icon social-icon"; }
+  #team-grid #nate img {
+    grid-area: img-nate; }
+  #team-grid #nate h4 {
+    grid-area: name-nate; }
+  #team-grid #nate p {
+    grid-area: pos-nate; }
+  #team-grid #nate i {
+    grid: social-icon; }
+  #team-grid #kieth img {
+    grid-area: img-kieth; }
+  #team-grid #kieth h4 {
+    grid-area: name-kieth; }
+  #team-grid #kieth p {
+    grid-area: pos-kieth; }
+  #team-grid #kieth i {
+    grid: social-icon; }
+  #team-grid #tendekai img {
+    grid-area: img-tende; }
+  #team-grid #tendekai h4 {
+    grid-area: name-tende; }
+  #team-grid #tendekai p {
+    grid-area: pos-tende; }
+  #team-grid #tendekai i {
+    grid: social-icon; }
+  #team-grid #henry img {
+    grid-area: img-henry; }
+  #team-grid #henry h4 {
+    grid-area: name-henry; }
+  #team-grid #henry p {
+    grid-area: pos-henry; }
+  #team-grid #henry i {
+    grid: social-icon; }
 
 /*# sourceMappingURL=main.css.map */

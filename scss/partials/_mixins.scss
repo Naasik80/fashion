@@ -28,6 +28,19 @@
 // shared hero styles //
 
 
+// shared content paragraphs //
+
+@mixin paragraph-content {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.67;
+    color: $brownish-grey;
+}
+
+// shared content paragraphs //
+
+
 // section titles stlyes //
 
 @mixin section-title {
@@ -48,7 +61,7 @@
     height: 360px;
     background-color: #666666;
 }
-@mixin price {
+@mixin sub-text-style {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 600;
