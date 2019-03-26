@@ -260,11 +260,12 @@ footer {
     .alt-hero .alt-sub-heading .alt-sub-second-link {
       color: #cccccc; }
 
+.sub-styles {
+  padding: 0; }
+
 #who-we-are-section {
   height: 548px;
   background-color: #ffffff; }
-  #who-we-are-section #who-styles {
-    padding: 0; }
   #who-we-are-section #who-we-are-content {
     width: 524px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -295,6 +296,21 @@ footer {
   #team-grid .team-imgs {
     width: 270px;
     height: 305px;
+    background-color: #666666; }
+
+#what-we-do-section {
+  height: 590px;
+  padding-bottom: 5em; }
+  #what-we-do-section #what-we-do-content {
+    width: 524px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.67;
+    color: #666666; }
+  #what-we-do-section #what-we-do-img {
+    width: 600px;
+    height: 490px;
     background-color: #666666; }
 
 header {
@@ -536,5 +552,15 @@ nav {
     grid-area: pos-henry; }
   #team-grid #henry i {
     grid: social-icon; }
+
+#what-we-do-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2em;
+  grid-template-areas: ". what-img what-content ."; }
+  #what-we-do-grid #what-we-do-img {
+    grid-area: what-img; }
+  #what-we-do-grid #what-we-do-content {
+    grid-area: what-content; }
 
 /*# sourceMappingURL=main.css.map */

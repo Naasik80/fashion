@@ -341,3 +341,22 @@ nav {
     }
 }
 // team grid layout //
+
+// what we do grid layout //
+
+#what-we-do-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2em;
+    grid-template-areas: 
+    ". what-img what-content .";
+
+    #what-we-do-img {
+        grid-area: what-img;
+    }
+    #what-we-do-content {
+        grid-area: what-content;
+    }
+}
+
+// what we do grid layout //

@@ -224,22 +224,24 @@
 
 //---------------------------------------------- about page STARTS ----------------------------------//
 
+// global about styles //
+.sub-styles {
+    padding: 0;
+}
+// global about styles //
+
 // who we are section styles starts //
 #who-we-are-section {
     height: 548px;
     background-color: $white-five;
     
-    #who-styles {
-        padding: 0;
-    }
+    
     #who-we-are-content {
         width: 524px;
         @include paragraph-content;
     }
     #who-we-are-img {
-        width: 600px;
-        height: 490px;
-        background-color: $brownish-grey;
+        @include about-page-imgs;
     }
 }
 // who we are section styles ends //
@@ -254,7 +256,7 @@
     }
     #team-grid {
         max-width: 1180px;
-        
+
         p {
             @include sub-text-style;
             padding: 1em 0;
@@ -267,4 +269,18 @@
     }
 // team section styles ends //
 
+// what we do section styles starts //
+#what-we-do-section {
+    height: 590px;
+    padding-bottom: 5em;
+    
+    #what-we-do-content {
+        width: 524px;
+        @include paragraph-content;
+    }
+    #what-we-do-img {
+        @include about-page-imgs;
+    }
+}
+// what we do section styles ends //
 //---------------------------------------------- ABOUT PAGE ENDS ----------------------------------//

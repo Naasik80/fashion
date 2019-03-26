@@ -87,3 +87,12 @@
     text-transform: uppercase;
 }
 // featured collection mixins //
+
+
+// ----------------- about page mixins --------------- //
+@mixin about-page-imgs {
+    width: 600px;
+    height: 490px;
+    background-color: $brownish-grey;
+}
+// ----------------- about page mixins --------------- //
