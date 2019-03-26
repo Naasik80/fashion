@@ -285,8 +285,62 @@
 // what we do section styles ends //
 //---------------------------------------------- ABOUT PAGE ENDS ----------------------------------//
 
+
+//---------------------------------------------- BLOG PAGE STARTS ----------------------------------//
+// blog global styles //
+#long-underline {
+    width: 1170px;
+    height: 1px;
+    background-color: #ebebeb;
+}
+// blog global styles //
+
+// blog product images styles //
+.blog-product-container {
+    width: 370px;
+    
+    .blog-product-imgs {
+        width: 370px;
+        height: 225px;
+        background-color: $brownish-grey;
+    }
+    .blog-title-styles {
+        text-align: left;
+        width: unset;
+        height: unset;
+    }
+    .sub-dates {
+        text-align: left !important;
+        @include sub-text-style;
+    }
+    .small-underline {
+        width: 370px;
+        height: 1px;
+        background-color: #ebebeb;
+    }
+    .blog-product-description {
+        text-align: left;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        @include paragraph-content;
+    }
+    a {
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.67;
+        text-align: left;
+        color: #706259
+    }
+}
+
+// blog products images styles //
+//---------------------------------------------- BLOG PAGE ENDS ----------------------------------//
+
+
 //---------------------------------------------- SHOP PAGE STARTS ----------------------------------//
-#product-caption {
+.caption-section {
     padding: 40px;
     background-color: $white-five;
 

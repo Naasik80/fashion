@@ -313,10 +313,55 @@ footer {
     height: 490px;
     background-color: #666666; }
 
-#product-caption {
+#long-underline {
+  width: 1170px;
+  height: 1px;
+  background-color: #ebebeb; }
+
+.blog-product-container {
+  width: 370px; }
+  .blog-product-container .blog-product-imgs {
+    width: 370px;
+    height: 225px;
+    background-color: #666666; }
+  .blog-product-container .blog-title-styles {
+    text-align: left;
+    width: unset;
+    height: unset; }
+  .blog-product-container .sub-dates {
+    text-align: left !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 3.2;
+    text-align: center;
+    color: #999999; }
+  .blog-product-container .small-underline {
+    width: 370px;
+    height: 1px;
+    background-color: #ebebeb; }
+  .blog-product-container .blog-product-description {
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.67;
+    color: #666666; }
+  .blog-product-container a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.67;
+    text-align: left;
+    color: #706259; }
+
+.caption-section {
   padding: 40px;
   background-color: #ffffff; }
-  #product-caption p {
+  .caption-section p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     line-height: 2.4;
@@ -577,13 +622,13 @@ nav {
   #what-we-do-grid #what-we-do-content {
     grid-area: what-content; }
 
-#product-caption-grid {
+.caption-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-areas: "page-item . order-sel"; }
-  #product-caption-grid #page-item {
+  .caption-grid .left-caption {
     grid-area: page-item; }
-  #product-caption-grid #order-select {
+  .caption-grid .right-caption {
     grid-area: order-sel; }
 
 /*# sourceMappingURL=main.css.map */

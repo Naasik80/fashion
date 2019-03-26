@@ -363,18 +363,23 @@ nav {
 //---------------------------------------------- ABOUT SECTION LAYOUTS ----------------------------------//
 
 
+//---------------------------------------------- BLOG PAGE LAYOUTS ----------------------------------//
+
+//---------------------------------------------- BLOG PAGE LAYOUTS ----------------------------------//
+
+
 //---------------------------------------------- SHOP PAGE LAYOUTS ----------------------------------//
 
-#product-caption-grid {
+.caption-grid {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
     "page-item . order-sel";
 
-    #page-item {
+    .left-caption {
         grid-area: page-item;
     }
-    #order-select {
+    .right-caption {
         grid-area: order-sel;
     }
 }
