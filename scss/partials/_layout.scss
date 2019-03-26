@@ -360,3 +360,23 @@ nav {
 }
 
 // what we do grid layout //
+//---------------------------------------------- ABOUT SECTION LAYOUTS ----------------------------------//
+
+
+//---------------------------------------------- SHOP PAGE LAYOUTS ----------------------------------//
+
+#product-caption-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "page-item . order-sel";
+
+    #page-item {
+        grid-area: page-item;
+    }
+    #order-select {
+        grid-area: order-sel;
+    }
+}
+
+//---------------------------------------------- SHOP PAGE LAYOUTS ----------------------------------//

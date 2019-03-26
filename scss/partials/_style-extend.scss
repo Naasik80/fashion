@@ -284,3 +284,22 @@
 }
 // what we do section styles ends //
 //---------------------------------------------- ABOUT PAGE ENDS ----------------------------------//
+
+//---------------------------------------------- SHOP PAGE STARTS ----------------------------------//
+#product-caption {
+    padding: 40px;
+    background-color: $white-five;
+
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        line-height: 2.4;
+        text-align: right;
+        color: #666666;
+    }
+}
+.products {
+    background-color: $offset-white;
+    height: 1610px;
+}
+//---------------------------------------------- SHOP PAGE ENDS ----------------------------------//

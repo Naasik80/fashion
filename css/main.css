@@ -313,6 +313,20 @@ footer {
     height: 490px;
     background-color: #666666; }
 
+#product-caption {
+  padding: 40px;
+  background-color: #ffffff; }
+  #product-caption p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    line-height: 2.4;
+    text-align: right;
+    color: #666666; }
+
+.products {
+  background-color: #f5f5f5;
+  height: 1610px; }
+
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -562,5 +576,14 @@ nav {
     grid-area: what-img; }
   #what-we-do-grid #what-we-do-content {
     grid-area: what-content; }
+
+#product-caption-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "page-item . order-sel"; }
+  #product-caption-grid #page-item {
+    grid-area: page-item; }
+  #product-caption-grid #order-select {
+    grid-area: order-sel; }
 
 /*# sourceMappingURL=main.css.map */
