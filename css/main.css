@@ -86,12 +86,19 @@ footer {
 #alt-header {
   background-color: #eeeeee; }
 
+.img-size-cover {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
 #home-nav {
   padding-top: 2em; }
 
 #hero-bg {
   height: 92vh;
-  background-color: #666666; }
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/living-room-furniture.jpg");
+  background-position: center;
+  background-size: cover; }
 
 #main-title {
   padding-top: 2em;
@@ -145,8 +152,11 @@ footer {
   background-color: #ffffff; }
 
 #second-hero-bg {
-  background-color: black;
-  height: 552px; }
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../images/glass-table.jpg");
+  height: 552px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 #second-hero-content-wrapper {
   width: 656px;
