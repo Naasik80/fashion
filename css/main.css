@@ -359,6 +359,12 @@ footer {
     text-align: left;
     color: #706259; }
 
+.contact-container {
+  width: 390px;
+  height: 200px;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0; }
+
 .caption-section {
   padding: 40px;
   background-color: #ffffff; }
@@ -653,5 +659,18 @@ nav {
     grid-area: page-item; }
   .caption-grid .right-caption {
     grid-area: order-sel; }
+
+#contact-container-grid {
+  padding-top: 60px;
+  padding-bottom: 74px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: ". address con-num open-hours ."; }
+  #contact-container-grid #address {
+    grid-area: address; }
+  #contact-container-grid #contact-numbers {
+    grid-area: con-num; }
+  #contact-container-grid #open-hours {
+    grid-area: open-hours; }
 
 /*# sourceMappingURL=main.css.map */

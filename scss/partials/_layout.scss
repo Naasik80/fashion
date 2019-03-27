@@ -414,5 +414,25 @@ nav {
         grid-area: order-sel;
     }
 }
+//---------------------------------------------- CONTACT PAGE LAYOUTS ----------------------------------//
+#contact-container-grid {
+    padding-top: 60px;
+    padding-bottom: 74px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    ". address con-num open-hours .";
+
+    #address {
+        grid-area: address;
+    }
+    #contact-numbers {
+        grid-area: con-num;
+    }
+    #open-hours {
+        grid-area: open-hours;
+    }
+}
+//---------------------------------------------- CONTACT PAGE LAYOUTS ----------------------------------//
 
 //---------------------------------------------- SHOP PAGE LAYOUTS ----------------------------------//
