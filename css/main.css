@@ -108,7 +108,8 @@ footer {
   height: 92vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/living-room-furniture.jpg");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 #main-title {
   padding-top: 2em;
@@ -166,7 +167,8 @@ footer {
   height: 552px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 #second-hero-content-wrapper {
   width: 656px;
@@ -284,10 +286,11 @@ footer {
   padding: 0; }
 
 #about-hero-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/living-area.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/architecture.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 #who-we-are-section {
   height: 548px;
@@ -348,7 +351,8 @@ footer {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/modern-office-furniture.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 .blog-product-container {
   width: 370px; }
@@ -401,13 +405,15 @@ footer {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bedroom-design.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 #shop-hero-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/shelf-design.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 .caption-section {
   padding: 40px;

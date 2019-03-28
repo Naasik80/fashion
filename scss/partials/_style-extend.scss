@@ -42,6 +42,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../images/living-room-furniture.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 #main-title {
     @include title;
@@ -96,6 +97,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 #second-hero-content-wrapper {
     width: 656px;
@@ -253,10 +255,11 @@
 
 // hero bg img //
 #about-hero-bg {
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/living-area.webp");
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../images/architecture.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 // hero bg img //
 
@@ -331,6 +334,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 // hero bg img //
 
@@ -376,11 +380,7 @@
 }
 
 // blog products images styles //
-//---------------------------------------------- BLOG PAGE ENDS ----------------------------------//
 
-
-
-//---------------------------------------------- BLOG PAGE ENDS ----------------------------------//
 // contact detain detail section //
 .contact-container {
     width: 390px;
@@ -397,6 +397,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 // hero bg img //
 //---------------------------------------------- CONTACT PAGE ENDS ----------------------------------//
@@ -409,6 +410,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 // hero bg img //
 
