@@ -440,3 +440,41 @@ nav {
 //---------------------------------------------- CONTACT PAGE LAYOUTS ----------------------------------//
 
 //---------------------------------------------- SHOP PAGE LAYOUTS ----------------------------------//
+#shop-product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 60px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    ". . . ."
+    ". sofa-img sofa-con ."
+    ". shelve-img shelve-con ."
+    ". cof-tab-img cof-tab-con ."
+    ". lux-bed-img lux-bed-con .";
+
+    #cozy-sofa-img {
+        grid-area: sofa-img;
+    }
+    #cozy-sofa-con {
+        grid-area: sofa-con;
+    }
+    #modern-shelve-img {
+        grid-area: shelve-img;
+    }
+    #modern-shelve-con {
+        grid-area: shelve-con;
+    }
+    #coffee-table-img {
+        grid-area: cof-tab-img;
+    }
+    #coffee-table-con {
+        grid-area: cof-tab-con;
+    }
+    #luxury-bed-img {
+        grid-area: lux-bed-img;
+    }
+    #luxury-bed-con {
+        grid-area: lux-bed-con;
+    }      
+}

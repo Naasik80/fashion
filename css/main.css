@@ -96,6 +96,15 @@ footer {
 .alt-color {
   color: #999999; }
 
+.alt-color-shop {
+  color: #ffffff; }
+
+.about-icon-style {
+  color: #666666; }
+
+.icon-container {
+  text-align: center; }
+
 .img-size-cover {
   position: relative;
   width: 100%;
@@ -429,6 +438,56 @@ footer {
   background-color: #f5f5f5;
   height: 1610px; }
 
+.shop-product-des {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.67;
+  color: #666666;
+  padding-top: 15px;
+  padding-bottom: 47px; }
+
+.product-price {
+  text-align: left !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 3.2;
+  text-align: center;
+  color: #999999; }
+
+.shop-product-titles {
+  text-align: left;
+  width: unset;
+  height: unset; }
+
+.shop-product-content {
+  width: 805px;
+  margin: 0%; }
+
+.shop-pro-img {
+  width: 300px;
+  height: 300px;
+  background-color: #666666; }
+
+.product-container {
+  display: inline-block; }
+
+.add-to-cart-btn {
+  margin: 0;
+  background-color: #ac907f;
+  width: 180px; }
+  .add-to-cart-btn a {
+    text-decoration: none; }
+    .add-to-cart-btn a p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      padding: 15px 0; }
+
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -726,5 +785,29 @@ nav {
     grid-area: con-num; }
   #contact-container-grid #open-hours {
     grid-area: open-hours; }
+
+#shop-product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 60px;
+  grid-template-rows: auto;
+  grid-template-areas: ". . . ." ". sofa-img sofa-con ." ". shelve-img shelve-con ." ". cof-tab-img cof-tab-con ." ". lux-bed-img lux-bed-con ."; }
+  #shop-product-grid #cozy-sofa-img {
+    grid-area: sofa-img; }
+  #shop-product-grid #cozy-sofa-con {
+    grid-area: sofa-con; }
+  #shop-product-grid #modern-shelve-img {
+    grid-area: shelve-img; }
+  #shop-product-grid #modern-shelve-con {
+    grid-area: shelve-con; }
+  #shop-product-grid #coffee-table-img {
+    grid-area: cof-tab-img; }
+  #shop-product-grid #coffee-table-con {
+    grid-area: cof-tab-con; }
+  #shop-product-grid #luxury-bed-img {
+    grid-area: lux-bed-img; }
+  #shop-product-grid #luxury-bed-con {
+    grid-area: lux-bed-con; }
 
 /*# sourceMappingURL=main.css.map */

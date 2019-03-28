@@ -52,6 +52,11 @@
     color: #333333;
     text-transform: uppercase;
 }
+@mixin alightment-left-titles {
+    text-align: left;
+    width: unset;
+    height: unset;
+}
 // section titles stlyes //
 
 // featured products mixins //
@@ -98,6 +103,15 @@
 // ----------------- about page mixins --------------- //
 
 //---------------------------------------------- SHOP PAGE MIXINS ----------------------------------//
-
-
+// add to cart text mixin //
+@mixin add-to-cart-btn-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: $white-five;
+    text-transform: uppercase;
+    padding: 15px 0;  
+}
+// add to cart text mixin //
 //---------------------------------------------- SHOP PAGE MIXINS ----------------------------------// 

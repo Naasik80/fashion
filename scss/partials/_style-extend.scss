@@ -16,6 +16,15 @@
 .alt-color {
     color: $warm-grey;
 }
+.alt-color-shop {
+    color: $white-five;
+}
+.about-icon-style {
+    color: $brownish-grey;
+}
+.icon-container {
+    text-align: center;
+}
 // alt icons styles //
 
 // basic img container fitting //
@@ -349,9 +358,7 @@
     }
     .blog-title-styles {
         padding-top: 1em;
-        text-align: left;
-        width: unset;
-        height: unset;
+       @include alightment-left-titles;
     }
     .sub-dates {
         text-align: left !important;
@@ -429,5 +436,29 @@
 .products {
     background-color: $offset-white;
     height: 1610px;
+}
+.shop-product-des {
+    @include paragraph-content;
+    padding-top: 15px;
+    padding-bottom: 47px;
+}
+.product-price {
+    text-align: left !important;
+    @include sub-text-style;
+}
+.shop-product-titles {
+   @include alightment-left-titles;
+}
+.shop-product-content {
+    width: 805px;
+    margin: 0%;
+}
+.shop-pro-img {
+    width: 300px;
+    height: 300px;
+    background-color: $brownish-grey;
+}
+.product-container {
+    display: inline-block;
 }
 //---------------------------------------------- SHOP PAGE ENDS ----------------------------------//
