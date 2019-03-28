@@ -11,7 +11,7 @@ header {
     #caption {
         grid-area: cap;
     }
-    #social-media {
+    .social-media {
         grid-area: socials;
     }
 }
@@ -27,6 +27,8 @@ nav {
     "search nav-links cart";
     
     #search-bar {
+        color: $white-five;
+        align-self: center;
         grid-area: search;
     }
     #navbar {
@@ -51,6 +53,8 @@ nav {
         }
     }
     #cart {
+        color: $white-five;
+        align-self: center;
         grid-area: cart;
     }
 }

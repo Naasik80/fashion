@@ -19,6 +19,9 @@ h5 {
   text-align: left;
   color: #333333; }
 
+i {
+  padding: 0 0.5em; }
+
 li {
   list-style-type: none;
   display: inline-block; }
@@ -38,6 +41,10 @@ header {
     letter-spacing: 2.4px; }
   header #socials {
     font-size: 15px;
+    text-align: center; }
+  header .alt-lang-size {
+    font-size: 12px;
+    font-weight: 300;
     text-align: center; }
 
 nav .nav-styles {
@@ -85,6 +92,9 @@ footer {
 
 #alt-header {
   background-color: #eeeeee; }
+
+.alt-color {
+  color: #999999; }
 
 .img-size-cover {
   position: relative;
@@ -273,6 +283,12 @@ footer {
 .sub-styles {
   padding: 0; }
 
+#about-hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/living-area.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 #who-we-are-section {
   height: 548px;
   background-color: #ffffff; }
@@ -328,6 +344,12 @@ footer {
   height: 1px;
   background-color: #ebebeb; }
 
+#blog-hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/modern-office-furniture.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .blog-product-container {
   width: 370px; }
   .blog-product-container .blog-product-imgs {
@@ -375,6 +397,18 @@ footer {
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0; }
 
+#contact-hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bedroom-design.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#shop-hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/shelf-design.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .caption-section {
   padding: 40px;
   background-color: #ffffff; }
@@ -397,7 +431,7 @@ header {
     grid-area: lang; }
   header #caption {
     grid-area: cap; }
-  header #social-media {
+  header .social-media {
     grid-area: socials; }
 
 nav {
@@ -405,6 +439,8 @@ nav {
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-areas: "search nav-links cart"; }
   nav #search-bar {
+    color: #ffffff;
+    align-self: center;
     grid-area: search; }
   nav #navbar {
     grid-area: nav-links;
@@ -422,6 +458,8 @@ nav {
       grid-area: right-link;
       align-self: center; }
   nav #cart {
+    color: #ffffff;
+    align-self: center;
     grid-area: cart; }
 
 #product-grid {

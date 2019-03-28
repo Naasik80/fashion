@@ -27,6 +27,11 @@ h5 {
 }
 // heading tags styles ends //
 
+// icons sizing styles starts //
+i {
+    padding: 0 0.5em;  
+}
+// icons sizing styles ends //
 
 // list styles starts //
 li {
@@ -57,6 +62,11 @@ header {
     #socials {
         // font-family: FontAwesome;
         font-size: 15px;
+        text-align: center;
+    }
+    .alt-lang-size {
+        font-size: 12px;
+        font-weight: 300;
         text-align: center;
     }
 }

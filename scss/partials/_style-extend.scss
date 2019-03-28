@@ -12,6 +12,12 @@
 
 // basic styles ends //
 
+// alt icons styles //
+.alt-color {
+    color: $warm-grey;
+}
+// alt icons styles //
+
 // basic img container fitting //
 .img-size-cover {
     position: relative;
@@ -245,6 +251,15 @@
 }
 // global about styles //
 
+// hero bg img //
+#about-hero-bg {
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/living-area.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+// hero bg img //
+
 // who we are section styles starts //
 #who-we-are-section {
     height: 548px;
@@ -310,6 +325,15 @@
 }
 // blog global styles //
 
+// hero bg img //
+#blog-hero-bg {
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/modern-office-furniture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+// hero bg img //
+
 // blog product images styles //
 .blog-product-container {
     width: 370px;
@@ -366,8 +390,28 @@
 }
 //---------------------------------------------- BLOG PAGE ENDS ----------------------------------//
 
+//---------------------------------------------- CONTACT PAGE STARTS ----------------------------------//
+// hero bg img //
+#contact-hero-bg {
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/bedroom-design.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+// hero bg img //
+//---------------------------------------------- CONTACT PAGE ENDS ----------------------------------//
+
 
 //---------------------------------------------- SHOP PAGE STARTS ----------------------------------//
+// hero bg img //
+#shop-hero-bg {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../images/shelf-design.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+// hero bg img //
+
 .caption-section {
     padding: 40px;
     background-color: $white-five;
