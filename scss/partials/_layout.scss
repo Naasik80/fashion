@@ -432,9 +432,26 @@ nav {
     }
     #contact-numbers {
         grid-area: con-num;
+
+        p {
+            padding-left: 4em;
+            padding-top: 2.5em;
+        }
     }
     #open-hours {
         grid-area: open-hours;
+        text-align: center;
+
+        i {
+            padding-top: 0.5em;
+        }
+        h4 {
+            padding-top: 0.4em;
+        }
+        p {
+            text-align: center;
+            padding-top: 2.3em;
+        }
     }
 }
 //---------------------------------------------- CONTACT PAGE LAYOUTS ----------------------------------//

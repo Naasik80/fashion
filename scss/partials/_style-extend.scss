@@ -394,6 +394,15 @@
     height: 200px;
     border: solid 1px #e6e6e6;
     background-color: #f0f0f0;
+
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        line-height: 1.39;
+        text-align: left;
+        color: $brownish-grey;
+        
+    }
 }
 //---------------------------------------------- BLOG PAGE ENDS ----------------------------------//
 
@@ -407,6 +416,39 @@
     background-attachment: fixed;
 }
 // hero bg img //
+
+// contact form styles //
+#contact-fields {
+    width: 1170px;
+
+
+    .input-fields-styles {
+        width: 570px;
+        height: 50px;
+        border: solid 1px #e6e6e6;
+        background-color: $white-five;
+        margin: 30px 5px;
+        padding: 0%;
+    }
+    #textarea-field-styles {
+        width: 1170px;
+        height: 150px;
+        border: solid 1px #e6e6e6;
+        background-color: $white-five;
+        margin: 30px 0;
+    }
+}
+#contact-page-styles {
+    text-decoration: none;
+
+    p {
+        @include button;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 114px;
+    }
+}
+// contact form styles //
 //---------------------------------------------- CONTACT PAGE ENDS ----------------------------------//
 
 
@@ -460,5 +502,9 @@
 }
 .product-container {
     display: inline-block;
+}
+.fa-clock {
+    font-size: 3em;
+    color: $black-three;
 }
 //---------------------------------------------- SHOP PAGE ENDS ----------------------------------//

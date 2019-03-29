@@ -409,6 +409,12 @@ footer {
   height: 200px;
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0; }
+  .contact-container p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: left;
+    color: #666666; }
 
 #contact-hero-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bedroom-design.jpg");
@@ -416,6 +422,39 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
+
+#contact-fields {
+  width: 1170px; }
+  #contact-fields .input-fields-styles {
+    width: 570px;
+    height: 50px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    margin: 30px 5px;
+    padding: 0%; }
+  #contact-fields #textarea-field-styles {
+    width: 1170px;
+    height: 150px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    margin: 30px 0; }
+
+#contact-page-styles {
+  text-decoration: none; }
+  #contact-page-styles p {
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 6em;
+    width: 150px;
+    padding: 10px 0;
+    background-color: #a88d7b;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 114px; }
 
 #shop-hero-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/shelf-design.jpg");
@@ -472,6 +511,10 @@ footer {
 
 .product-container {
   display: inline-block; }
+
+.fa-clock {
+  font-size: 3em;
+  color: #333333; }
 
 .scroll-down-dude {
   margin-left: 41.5em;
@@ -857,8 +900,19 @@ nav {
     grid-area: address; }
   #contact-container-grid #contact-numbers {
     grid-area: con-num; }
+    #contact-container-grid #contact-numbers p {
+      padding-left: 4em;
+      padding-top: 2.5em; }
   #contact-container-grid #open-hours {
-    grid-area: open-hours; }
+    grid-area: open-hours;
+    text-align: center; }
+    #contact-container-grid #open-hours i {
+      padding-top: 0.5em; }
+    #contact-container-grid #open-hours h4 {
+      padding-top: 0.4em; }
+    #contact-container-grid #open-hours p {
+      text-align: center;
+      padding-top: 2.3em; }
 
 #shop-product-grid {
   display: grid;
