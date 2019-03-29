@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
     <title>Shop</title>
 
 </head>
@@ -51,11 +52,21 @@
                 <a href="">Blog</a>
                 <a href="">Contact</a>
                 <a href="">Lookbook</a>
-
-                <i class="fas fa-shopping-cart alt-color"></i>
+              
+                <span id="itemCount"></span>
+                <i class="fas fa-shopping-cart alt-color" aria-hidden="true"></i>
                 <i class="fas fa-search alt-color"></i>
 
             </div>
+
+            <div id="shoppingCart">
+
+                    <div id="cartItems">
+                      <h2>Items in your cart</h2>
+                      <i class="fa fa-times-circle-o fa-3x" aria-hidden="true"></i>
+                    </div>
+                
+                  </div>
 
     </nav>
 
@@ -91,24 +102,22 @@
         <div id="shop-product-grid">
            
             <!------------- FIRST PRODUCT STARTS ------------->
+            
+            <img id="cozy-sofa-img" class="shop-pro-img img-size-cover" src="images/cosy-couch.jpg" alt="">
 
-            <img id="cozy-sofa-img" class="shop-pro-img img-size-cover" src="" alt="">
+            <article class="shop-product-content itemDetails" id="cozy-sofa-con">
 
-            <article class="shop-product-content" id="cozy-sofa-con">
-
-                <h4 class="shop-product-titles">Iron Chair</h4>
-                <p class="product-price">R 500.00</p>
+                <h4 class="shop-product-titles">New Cozy Sofa</h4>
+                <p class="product-price">R 1500.00</p>
                 
                 <p class="shop-product-des">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi a impedit dignissimos accusantium! Temporibus quae velit a, repudiandae quisquam sit nulla aperiam deserunt assumenda possimus eaque explicabo. Voluptates, ratione cum!
                 </p>
 
-                <div class="add-to-cart-btn">
-                    <a href="">
+                <div class="add-to-cart-btn add">
                         <p>
                             <i class="fas fa-shopping-cart alt-color-shop"></i>Add to Cart
                         </p>
-                    </a>
                 </div>
 
             </article>
@@ -119,23 +128,21 @@
             <!------------- SECOND PRODUCT STARTS ------------->
 
             
-            <img id="modern-shelve-img" class="shop-pro-img img-size-cover" src="" alt="">
+            <img id="modern-shelve-img" class="shop-pro-img img-size-cover" src="images/modern-shelve.jpg" alt="">
 
             <article class="shop-product-content" id="modern-shelve-con">
 
-                <h4 class="shop-product-titles">Iron Chair</h4>
-                <p class="product-price">R 500.00</p>
+                <h4 class="shop-product-titles">Modern Shelve</h4>
+                <p class="product-price">R 300.00</p>
                 
                 <p class="shop-product-des">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi a impedit dignissimos accusantium! Temporibus quae velit a, repudiandae quisquam sit nulla aperiam deserunt assumenda possimus eaque explicabo. Voluptates, ratione cum!
                 </p>
 
-                <div class="add-to-cart-btn">
-                    <a href="">
+                <div class="add-to-cart-btn add">
                         <p>
                             <i class="fas fa-shopping-cart alt-color-shop"></i>Add to Cart
                         </p>
-                    </a>
                 </div>
 
             </article>
@@ -146,23 +153,21 @@
             <!------------- THIRD PRODUCT STARTS ------------->
 
             
-            <img id="coffee-table-img" class="shop-pro-img img-size-cover" src="" alt="">
+            <img id="coffee-table-img" class="shop-pro-img img-size-cover" src="images/elegant-table.jpg" alt="">
 
             <article class="shop-product-content" id="coffee-table-con">
 
-                <h4 class="shop-product-titles">Iron Chair</h4>
-                <p class="product-price">R 500.00</p>
+                <h4 class="shop-product-titles">Elegant Coffee Table</h4>
+                <p class="product-price">R 430.00</p>
                 
                 <p class="shop-product-des">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi a impedit dignissimos accusantium! Temporibus quae velit a, repudiandae quisquam sit nulla aperiam deserunt assumenda possimus eaque explicabo. Voluptates, ratione cum!
                 </p>
 
-                <div class="add-to-cart-btn">
-                    <a href="">
+                <div class="add-to-cart-btn add">
                         <p>
                             <i class="fas fa-shopping-cart alt-color-shop"></i>Add to Cart
                         </p>
-                    </a>
                 </div>
 
             </article>
@@ -173,23 +178,21 @@
             <!------------- FOURTH PRODUCT STARTS ------------->
 
             
-            <img id="luxury-bed-img" class="shop-pro-img img-size-cover" src="" alt="">
+            <img id="luxury-bed-img" class="shop-pro-img img-size-cover" src="images/modern-bed.jpg" alt="">
 
             <article class="shop-product-content" id="luxury-bed-con">
 
-                <h4 class="shop-product-titles">Iron Chair</h4>
-                <p class="product-price">R 500.00</p>
+                <h4 class="shop-product-titles">Luxury Modern Bed</h4>
+                <p class="product-price">R 2000.00</p>
                 
                 <p class="shop-product-des">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi a impedit dignissimos accusantium! Temporibus quae velit a, repudiandae quisquam sit nulla aperiam deserunt assumenda possimus eaque explicabo. Voluptates, ratione cum!
                 </p>
 
-                <div class="add-to-cart-btn">
-                    <a href="">
+                <div class="add-to-cart-btn add">
                         <p>
                             <i class="fas fa-shopping-cart alt-color-shop"></i>Add to Cart
                         </p>
-                    </a>
                 </div>
 
             </article>
@@ -265,6 +268,9 @@
                 Copyright © 2019 Designed by nate_nonpareil. All rights reserved.
             </p>    
         </section>
+
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+        <script src= 'js/main.js'></script>
 </body>
 
 </html>

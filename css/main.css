@@ -473,20 +473,94 @@ footer {
 .product-container {
   display: inline-block; }
 
+.scroll-down-dude {
+  margin-left: 41.5em;
+  margin-top: 4em; }
+
+.scroll-down-dude:before,
+.scroll-down-dude:after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  border-bottom: 4px solid white;
+  border-right: 4px solid white; }
+
+.scroll-down-dude:before {
+  animation: down-arrow-before 2.6s cubic-bezier(0.77, 0, 0.175, 1) infinite; }
+
+.scroll-down-dude:after {
+  animation: down-arrow-after 2.6s cubic-bezier(0.77, 0, 0.175, 1) infinite; }
+
+@keyframes down-arrow-before {
+  50% {
+    transform: rotate(45deg) translate(70%, 70%); }
+  100% {
+    transform: rotate(45deg) translate(70%, 70%); } }
+@keyframes down-arrow-after {
+  50% {
+    transform: rotate(45deg) translate(110%, 110%);
+    opacity: 0; }
+  51% {
+    transform: rotate(45deg) translate(-130%, -130%); }
+  100% {
+    transform: rotate(45deg) translate(-70%, -70%);
+    opacity: 1; } }
 .add-to-cart-btn {
   margin: 0;
   background-color: #ac907f;
   width: 180px; }
-  .add-to-cart-btn a {
-    text-decoration: none; }
-    .add-to-cart-btn a p {
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 15px;
-      letter-spacing: 1.5px;
-      text-align: center;
-      color: #ffffff;
-      text-transform: uppercase;
-      padding: 15px 0; }
+  .add-to-cart-btn p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px 0;
+    cursor: pointer; }
+
+.removeItem {
+  margin-left: 40px; }
+
+i:hover {
+  cursor: pointer; }
+
+#shoppingCart {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6); }
+
+#cartItems {
+  position: relative;
+  width: 600px;
+  left: 50%;
+  top: 150px;
+  margin-left: -300px;
+  padding: 40px;
+  box-shadow: 0 0 10px black;
+  background: #e9e9e9;
+  overflow: auto; }
+
+#itemCount {
+  position: absolute;
+  border-radius: 100%;
+  display: none;
+  width: 18px;
+  height: 18px;
+  background-color: #ac907f;
+  top: 5.5em;
+  right: 20.8em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff; }
 
 header {
   display: grid;
